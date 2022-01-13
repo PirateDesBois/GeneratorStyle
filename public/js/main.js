@@ -1,76 +1,77 @@
+//Targetted div
 let cible= document.getElementById("cible");
 console.log(cible);
-//1
+//Set grey color
 let btn1 = document.getElementsByClassName('btn1')[0];
 console.log(btn1)
 let changeColor1= () =>{
     cible.style="background-color:#5c5c5c;"
 }
 btn1.addEventListener('click', changeColor1)
-//2
+//Set red color
 let btn2 = document.getElementsByClassName('btn2')[0];
 console.log(btn2)
 let changeColor2= () =>{
     cible.style="background-color:red;"
 }
 btn2.addEventListener('click', changeColor2)
-//3
+//Set green color
 let btn3 = document.getElementsByClassName('btn3')[0];
 console.log(btn3)
 let changeColor3= () =>{
     cible.style="background-color:green;"
 }
 btn3.addEventListener('click', changeColor3)
-//4
+//Set blue color
 let btn4 = document.getElementsByClassName('btn4')[0];
 console.log(btn4)
 let changeColor4= () =>{
     cible.style="background-color:blue;"
 }
 btn4.addEventListener('click', changeColor4)
-//5
+//Set solid border
 let btn5 = document.getElementsByClassName('btn5')[0];
 console.log(btn5)
 let changeborder1= () =>{
     cible.style.border="5px solid black"
 }
 btn5.addEventListener('click', changeborder1)
-//6
+//Set dashed border
 let btn6 = document.getElementsByClassName('btn6')[0];
 console.log(btn6)
 let changeborder2= () =>{
     cible.style.border="5px dashed black"
 }
 btn6.addEventListener('click', changeborder2)
-//7
+//Set dotted border
 let btn7 = document.getElementsByClassName('btn7')[0];
 console.log(btn7)
 let changeborder3= () =>{
     cible.style.border="5px dotted black"
 }
 btn7.addEventListener('click', changeborder3)
-//8
+//Remove border-top
 let btn8 = document.getElementsByClassName('btn8')[0];
 console.log(btn8)
 let changeborder4= () =>{
     cible.style.borderTopWidth ="0px"
 }
 btn8.addEventListener('click', changeborder4)
-//9
+//Put 10px to the border-top
 let btn9 = document.getElementsByClassName('btn9')[0];
 console.log(btn9)
 let changeborder5= () =>{
     cible.style.borderTopWidth="10px"
 }
 btn9.addEventListener('click', changeborder5)
-//10
+//Put 15px to the border-top
 let btn10 = document.getElementsByClassName('btn10')[0];
 console.log(btn10)
 let changeborder6= () =>{
     cible.style.borderTopWidth="15px"
 }
 btn10.addEventListener('click', changeborder6)
-//Changing Color
+//Changing Border Color
 let inpColor = document.getElementsByClassName('inpColor')[0];
 console.log(inpColor)
 let changeColor= () =>{
