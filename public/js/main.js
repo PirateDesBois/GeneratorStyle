@@ -89,7 +89,6 @@ inp1.addEventListener('change', changeSizeOfBorder)
 let inp2 = document.getElementsByClassName('inp2')[0];
 let changeSizeOfBorderTop= () =>{
     cible.style.borderTopWidth=inp2.value +"px"
-    
 }
 inp2.addEventListener('change', changeSizeOfBorderTop)
 //set border right size
